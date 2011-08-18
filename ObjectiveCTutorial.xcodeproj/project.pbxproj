@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2208A90D13FDDC5500088665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A90C13FDDC5500088665 /* UIKit.framework */; };
+		2208A90F13FDDC5500088665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A90E13FDDC5500088665 /* Foundation.framework */; };
+		2208A91113FDDC5500088665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A91013FDDC5500088665 /* CoreGraphics.framework */; };
+		2208A91713FDDC5500088665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2208A91513FDDC5500088665 /* InfoPlist.strings */; };
+		2208A91A13FDDC5500088665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2208A91913FDDC5500088665 /* main.m */; };
+		2208A91D13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2208A91C13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m */; };
+		2208A92013FDDC5500088665 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2208A91E13FDDC5500088665 /* MainWindow.xib */; };
+		2208A92713FDDC5500088665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A90C13FDDC5500088665 /* UIKit.framework */; };
+		2208A92813FDDC5500088665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A90E13FDDC5500088665 /* Foundation.framework */; };
+		2208A92913FDDC5500088665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A91013FDDC5500088665 /* CoreGraphics.framework */; };
+		2208A93113FDDC5500088665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2208A92F13FDDC5500088665 /* InfoPlist.strings */; };
+		2208A93413FDDC5500088665 /* ObjectiveCTutorialTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2208A93313FDDC5500088665 /* ObjectiveCTutorialTests.h */; };
+		2208A93613FDDC5500088665 /* ObjectiveCTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2208A93513FDDC5500088665 /* ObjectiveCTutorialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2208A92A13FDDC5500088665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2208A8FF13FDDC5500088665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2208A90713FDDC5500088665;
+			remoteInfo = ObjectiveCTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2208A90813FDDC5500088665 /* ObjectiveCTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2208A90C13FDDC5500088665 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2208A90E13FDDC5500088665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2208A91013FDDC5500088665 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2208A91413FDDC5500088665 /* ObjectiveCTutorial-Info.plist */ = {isa = PBXFileReference; path = "ObjectiveCTutorial-Info.plist"; sourceTree = "<group>"; };
+		2208A91613FDDC5500088665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2208A91813FDDC5500088665 /* ObjectiveCTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "ObjectiveCTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2208A91913FDDC5500088665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2208A91B13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.h */ = {isa = PBXFileReference; path = ObjectiveCTutorialAppDelegate.h; sourceTree = "<group>"; };
+		2208A91C13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTutorialAppDelegate.m; sourceTree = "<group>"; };
+		2208A91F13FDDC5500088665 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2208A92613FDDC5500088665 /* ObjectiveCTutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCTutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2208A92E13FDDC5500088665 /* ObjectiveCTutorialTests-Info.plist */ = {isa = PBXFileReference; path = "ObjectiveCTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		2208A93013FDDC5500088665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2208A93213FDDC5500088665 /* ObjectiveCTutorialTests-Prefix.pch */ = {isa = PBXFileReference; path = "ObjectiveCTutorialTests-Prefix.pch"; sourceTree = "<group>"; };
+		2208A93313FDDC5500088665 /* ObjectiveCTutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCTutorialTests.h; sourceTree = "<group>"; };
+		2208A93513FDDC5500088665 /* ObjectiveCTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTutorialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2208A90513FDDC5500088665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2208A90D13FDDC5500088665 /* UIKit.framework in Frameworks */,
+				2208A90F13FDDC5500088665 /* Foundation.framework in Frameworks */,
+				2208A91113FDDC5500088665 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2208A92213FDDC5500088665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2208A92713FDDC5500088665 /* UIKit.framework in Frameworks */,
+				2208A92813FDDC5500088665 /* Foundation.framework in Frameworks */,
+				2208A92913FDDC5500088665 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2208A8FD13FDDC5500088665 = {
+			isa = PBXGroup;
+			children = (
+				2208A91213FDDC5500088665 /* ObjectiveCTutorial */,
+				2208A92C13FDDC5500088665 /* ObjectiveCTutorialTests */,
+				2208A90B13FDDC5500088665 /* Frameworks */,
+				2208A90913FDDC5500088665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2208A90913FDDC5500088665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2208A90813FDDC5500088665 /* ObjectiveCTutorial.app */,
+				2208A92613FDDC5500088665 /* ObjectiveCTutorialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2208A90B13FDDC5500088665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2208A90C13FDDC5500088665 /* UIKit.framework */,
+				2208A90E13FDDC5500088665 /* Foundation.framework */,
+				2208A91013FDDC5500088665 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2208A91213FDDC5500088665 /* ObjectiveCTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				2208A91B13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.h */,
+				2208A91C13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m */,
+				2208A91E13FDDC5500088665 /* MainWindow.xib */,
+				2208A91313FDDC5500088665 /* Supporting Files */,
+			);
+			path = ObjectiveCTutorial;
+			sourceTree = "<group>";
+		};
+		2208A91313FDDC5500088665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2208A91413FDDC5500088665 /* ObjectiveCTutorial-Info.plist */,
+				2208A91513FDDC5500088665 /* InfoPlist.strings */,
+				2208A91813FDDC5500088665 /* ObjectiveCTutorial-Prefix.pch */,
+				2208A91913FDDC5500088665 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2208A92C13FDDC5500088665 /* ObjectiveCTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				2208A93313FDDC5500088665 /* ObjectiveCTutorialTests.h */,
+				2208A93513FDDC5500088665 /* ObjectiveCTutorialTests.m */,
+				2208A92D13FDDC5500088665 /* Supporting Files */,
+			);
+			path = ObjectiveCTutorialTests;
+			sourceTree = "<group>";
+		};
+		2208A92D13FDDC5500088665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2208A92E13FDDC5500088665 /* ObjectiveCTutorialTests-Info.plist */,
+				2208A92F13FDDC5500088665 /* InfoPlist.strings */,
+				2208A93213FDDC5500088665 /* ObjectiveCTutorialTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2208A90713FDDC5500088665 /* ObjectiveCTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2208A93913FDDC5500088665 /* Build configuration list for PBXNativeTarget "ObjectiveCTutorial" */;
+			buildPhases = (
+				2208A90413FDDC5500088665 /* Sources */,
+				2208A90513FDDC5500088665 /* Frameworks */,
+				2208A90613FDDC5500088665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveCTutorial;
+			productName = ObjectiveCTutorial;
+			productReference = 2208A90813FDDC5500088665 /* ObjectiveCTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2208A92513FDDC5500088665 /* ObjectiveCTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2208A93C13FDDC5500088665 /* Build configuration list for PBXNativeTarget "ObjectiveCTutorialTests" */;
+			buildPhases = (
+				2208A92113FDDC5500088665 /* Sources */,
+				2208A92213FDDC5500088665 /* Frameworks */,
+				2208A92313FDDC5500088665 /* Resources */,
+				2208A92413FDDC5500088665 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2208A92B13FDDC5500088665 /* PBXTargetDependency */,
+			);
+			name = ObjectiveCTutorialTests;
+			productName = ObjectiveCTutorialTests;
+			productReference = 2208A92613FDDC5500088665 /* ObjectiveCTutorialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2208A8FF13FDDC5500088665 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2208A90213FDDC5500088665 /* Build configuration list for PBXProject "ObjectiveCTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2208A8FD13FDDC5500088665;
+			productRefGroup = 2208A90913FDDC5500088665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2208A90713FDDC5500088665 /* ObjectiveCTutorial */,
+				2208A92513FDDC5500088665 /* ObjectiveCTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2208A90613FDDC5500088665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2208A91713FDDC5500088665 /* InfoPlist.strings in Resources */,
+				2208A92013FDDC5500088665 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2208A92313FDDC5500088665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2208A93113FDDC5500088665 /* InfoPlist.strings in Resources */,
+				2208A93413FDDC5500088665 /* ObjectiveCTutorialTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2208A92413FDDC5500088665 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2208A90413FDDC5500088665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2208A91A13FDDC5500088665 /* main.m in Sources */,
+				2208A91D13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2208A92113FDDC5500088665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2208A93613FDDC5500088665 /* ObjectiveCTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2208A92B13FDDC5500088665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2208A90713FDDC5500088665 /* ObjectiveCTutorial */;
+			targetProxy = 2208A92A13FDDC5500088665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2208A91513FDDC5500088665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2208A91613FDDC5500088665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2208A91E13FDDC5500088665 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2208A91F13FDDC5500088665 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2208A92F13FDDC5500088665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2208A93013FDDC5500088665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2208A93713FDDC5500088665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2208A93813FDDC5500088665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2208A93A13FDDC5500088665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCTutorial/ObjectiveCTutorial-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveCTutorial/ObjectiveCTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2208A93B13FDDC5500088665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCTutorial/ObjectiveCTutorial-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveCTutorial/ObjectiveCTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2208A93D13FDDC5500088665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjectiveCTutorial.app/ObjectiveCTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCTutorialTests/ObjectiveCTutorialTests-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveCTutorialTests/ObjectiveCTutorialTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2208A93E13FDDC5500088665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjectiveCTutorial.app/ObjectiveCTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveCTutorialTests/ObjectiveCTutorialTests-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveCTutorialTests/ObjectiveCTutorialTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2208A90213FDDC5500088665 /* Build configuration list for PBXProject "ObjectiveCTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2208A93713FDDC5500088665 /* Debug */,
+				2208A93813FDDC5500088665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2208A93913FDDC5500088665 /* Build configuration list for PBXNativeTarget "ObjectiveCTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2208A93A13FDDC5500088665 /* Debug */,
+				2208A93B13FDDC5500088665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2208A93C13FDDC5500088665 /* Build configuration list for PBXNativeTarget "ObjectiveCTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2208A93D13FDDC5500088665 /* Debug */,
+				2208A93E13FDDC5500088665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2208A8FF13FDDC5500088665 /* Project object */;
+}
