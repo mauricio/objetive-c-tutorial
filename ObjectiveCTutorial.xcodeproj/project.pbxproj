@@ -18,8 +18,9 @@
 		2208A92813FDDC5500088665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A90E13FDDC5500088665 /* Foundation.framework */; };
 		2208A92913FDDC5500088665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A91013FDDC5500088665 /* CoreGraphics.framework */; };
 		2208A93113FDDC5500088665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2208A92F13FDDC5500088665 /* InfoPlist.strings */; };
-		2208A93413FDDC5500088665 /* ObjectiveCTutorialTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2208A93313FDDC5500088665 /* ObjectiveCTutorialTests.h */; };
-		2208A93613FDDC5500088665 /* ObjectiveCTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2208A93513FDDC5500088665 /* ObjectiveCTutorialTests.m */; };
+		2208A94113FDDD6F00088665 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 2208A94013FDDD6F00088665 /* Account.m */; };
+		2208A94313FDE2AA00088665 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2208A94213FDE2AA00088665 /* SenTestingKit.framework */; };
+		2208A94613FDE4C700088665 /* AccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2208A94513FDE4C700088665 /* AccountTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,19 +38,22 @@
 		2208A90C13FDDC5500088665 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2208A90E13FDDC5500088665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2208A91013FDDC5500088665 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2208A91413FDDC5500088665 /* ObjectiveCTutorial-Info.plist */ = {isa = PBXFileReference; path = "ObjectiveCTutorial-Info.plist"; sourceTree = "<group>"; };
+		2208A91413FDDC5500088665 /* ObjectiveCTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveCTutorial-Info.plist"; sourceTree = "<group>"; };
 		2208A91613FDDC5500088665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2208A91813FDDC5500088665 /* ObjectiveCTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "ObjectiveCTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2208A91813FDDC5500088665 /* ObjectiveCTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveCTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		2208A91913FDDC5500088665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2208A91B13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.h */ = {isa = PBXFileReference; path = ObjectiveCTutorialAppDelegate.h; sourceTree = "<group>"; };
+		2208A91B13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCTutorialAppDelegate.h; sourceTree = "<group>"; };
 		2208A91C13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTutorialAppDelegate.m; sourceTree = "<group>"; };
 		2208A91F13FDDC5500088665 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		2208A92613FDDC5500088665 /* ObjectiveCTutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCTutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2208A92E13FDDC5500088665 /* ObjectiveCTutorialTests-Info.plist */ = {isa = PBXFileReference; path = "ObjectiveCTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		2208A92E13FDDC5500088665 /* ObjectiveCTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveCTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		2208A93013FDDC5500088665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2208A93213FDDC5500088665 /* ObjectiveCTutorialTests-Prefix.pch */ = {isa = PBXFileReference; path = "ObjectiveCTutorialTests-Prefix.pch"; sourceTree = "<group>"; };
-		2208A93313FDDC5500088665 /* ObjectiveCTutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCTutorialTests.h; sourceTree = "<group>"; };
-		2208A93513FDDC5500088665 /* ObjectiveCTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTutorialTests.m; sourceTree = "<group>"; };
+		2208A93213FDDC5500088665 /* ObjectiveCTutorialTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveCTutorialTests-Prefix.pch"; sourceTree = "<group>"; };
+		2208A93F13FDDD6F00088665 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		2208A94013FDDD6F00088665 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		2208A94213FDE2AA00088665 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2208A94413FDE4C700088665 /* AccountTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTest.h; sourceTree = "<group>"; };
+		2208A94513FDE4C700088665 /* AccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2208A94313FDE2AA00088665 /* SenTestingKit.framework in Frameworks */,
 				2208A92713FDDC5500088665 /* UIKit.framework in Frameworks */,
 				2208A92813FDDC5500088665 /* Foundation.framework in Frameworks */,
 				2208A92913FDDC5500088665 /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +103,7 @@
 		2208A90B13FDDC5500088665 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2208A94213FDE2AA00088665 /* SenTestingKit.framework */,
 				2208A90C13FDDC5500088665 /* UIKit.framework */,
 				2208A90E13FDDC5500088665 /* Foundation.framework */,
 				2208A91013FDDC5500088665 /* CoreGraphics.framework */,
@@ -112,6 +118,8 @@
 				2208A91C13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m */,
 				2208A91E13FDDC5500088665 /* MainWindow.xib */,
 				2208A91313FDDC5500088665 /* Supporting Files */,
+				2208A93F13FDDD6F00088665 /* Account.h */,
+				2208A94013FDDD6F00088665 /* Account.m */,
 			);
 			path = ObjectiveCTutorial;
 			sourceTree = "<group>";
@@ -130,9 +138,9 @@
 		2208A92C13FDDC5500088665 /* ObjectiveCTutorialTests */ = {
 			isa = PBXGroup;
 			children = (
-				2208A93313FDDC5500088665 /* ObjectiveCTutorialTests.h */,
-				2208A93513FDDC5500088665 /* ObjectiveCTutorialTests.m */,
 				2208A92D13FDDC5500088665 /* Supporting Files */,
+				2208A94413FDE4C700088665 /* AccountTest.h */,
+				2208A94513FDE4C700088665 /* AccountTest.m */,
 			);
 			path = ObjectiveCTutorialTests;
 			sourceTree = "<group>";
@@ -224,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2208A93113FDDC5500088665 /* InfoPlist.strings in Resources */,
-				2208A93413FDDC5500088665 /* ObjectiveCTutorialTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,7 @@
 			files = (
 				2208A91A13FDDC5500088665 /* main.m in Sources */,
 				2208A91D13FDDC5500088665 /* ObjectiveCTutorialAppDelegate.m in Sources */,
+				2208A94113FDDD6F00088665 /* Account.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2208A93613FDDC5500088665 /* ObjectiveCTutorialTests.m in Sources */,
+				2208A94613FDE4C700088665 /* AccountTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
